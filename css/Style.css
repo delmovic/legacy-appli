@@ -1,0 +1,122 @@
+body {
+ padding: 0px;
+ margin: 0px;
+ font-family: 'century gothic',georgia,sans-serif;
+ background-color: #fff;
+ color: #000;
+}
+.top{
+    margin-top: 10%;
+}
+.top-header{
+    margin-top: 5%;
+}
+.gray{
+    background-color: #000;
+}
+.gray h3{
+    color: #fff;
+}
+.gray{
+  
+    padding: 1%;
+}
+#carousel{
+    background-image: url('../image/background.png');
+ padding: 30px;
+
+}
+.carousel img{
+       margin:0px auto;
+}
+h3,h2{
+    text-align: center;
+     font-family: 'century gothic',georgia,sans-serif;
+}
+.container h3{
+    color: #fa5454;
+     font-family: 'century gothic',georgia,sans-serif;
+
+}
+.container .grand{
+    font-size: 50px;
+    border-radius: 100%;
+    margin:0px auto;
+    border: 3px double #0d1250;
+    padding: 12px;
+
+}
+a {
+    color: #222;
+    font-family: 'century gothic',georgia,sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+
+}
+.navbar-nav a:hover{
+    color: #fa5454;
+    -webkit-transition: 2s color ease ;
+    -moz-transition: 2s color ease ;
+    -o-transition: 2s color ease ;
+    -ms-transition: 2s color ease ;
+    transition: 2s color ease ;
+}
+
+footer{
+    background-color: #222;
+    color: #fff;
+}
+footer .social{
+    list-style: none;
+}
+ul li{
+    float: left;
+    margin: 5px;
+}
+.social .facebook:hover{
+    color:#337ab7;
+  -webkit-transition: 2s color ease ;
+    -moz-transition: 2s color ease ;
+    -o-transition: 2s color ease ;
+    -ms-transition: 2s color ease ;
+    transition: 2s color ease ;
+}
+.social .twitter:hover {
+    color:#33e8f1;
+  -webkit-transition: 2s color ease ;
+    -moz-transition: 2s color ease ;
+    -o-transition: 2s color ease ;
+    -ms-transition: 2s color ease ;
+    transition: 2s color ease ;
+}
+.social .youtube:hover{
+    color: #fa5454;
+  -webkit-transition: 2s color ease ;
+    -moz-transition: 2s color ease ;
+    -o-transition: 2s color ease ;
+    -ms-transition: 2s color ease ;
+    transition: 2s color ease ;
+}
+
+/* make sidebar nav vertical */
+@media (min-width: 768px) {
+    .sidebar-nav .navbar .navbar-collapse {
+        padding: 0;
+        max-height: none;
+    }
+
+    .sidebar-nav .navbar ul {
+        float: none;
+        display: block;
+    }
+
+    .sidebar-nav .navbar li {
+        float: none;
+        display: block;
+    }
+
+        .sidebar-nav .navbar li a {
+            padding-top: 12px;
+            padding-bottom: 12px;
+        }
+}
